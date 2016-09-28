@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_user_account">user_account</string>
+    <string name="key_drawer_rooms_number">drawer_rooms_number</string>
+    <string name="key_changelog">changelog</string>
+    <string name="key_about">about</string>
+    <string name="key_visit_project">visit_project</string>
+</resources>

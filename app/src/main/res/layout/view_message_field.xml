@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="13"
+    android:background="@drawable/message_field_border"
+    android:gravity="center_vertical"
+    android:minHeight="56dp"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/field_chat_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="12"
+        android:gravity="center_vertical"
+        android:hint="Type message"
+        app:et_inputId="@+id/internal_field"
+        android:inputType="textMultiLine|textCapSentences"
+        app:et_supportMode="helper"
+        app:et_supportSingleLine="false"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.rey.material.widget.Button
+            android:id="@+id/button_send"
+            style="@style/DarkFlatButtonRippleStyle"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="{faw-send}"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+            app:rd_cornerRadius="4dp"/>
+
+        <com.rey.material.widget.ProgressView
+            android:id="@+id/progress_circular_message"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            app:pv_autostart="true"
+            android:visibility="gone"
+            app:pv_circular="true"
+            app:pv_progressMode="indeterminate"/>
+    </FrameLayout>
+</LinearLayout>

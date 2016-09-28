@@ -1,0 +1,20 @@
+<resources>
+  <string name="app_name">Gitteroid</string>
+
+  <string name="action_room_users">Room users</string>
+
+  <string name="text_message_sample">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus orci sapien, vel sagittis nunc mollis nec. Nulla sapien nunc, facilisis et purus at, feugiat placerat arcu. Pellentesque nec urna in augue tincidunt euismod et et diam. Nunc ullamcorper nisl ut metus elementum, quis ultrices quam ornare. Donec ut molestie erat. Donec sit amet scelerisque ligula. Aenean facilisis est commodo, posuere justo sit amet, lobortis sem. Integer vulputate est in quam elementum fermentum. Fusce tincidunt ligula velit, et auctor lectus finibus id. Curabitur vitae varius justo, ut pretium orci. Proin quis eros justo. Sed at nibh ut orci porta mattis eu in lacus. Proin et erat non augue hendrerit ultricies at vel dolor. Vivamus at convallis nisl. Fusce scelerisque lacinia libero sit amet mollis.</string>
+
+  <string name="title_changelog">Changelog</string>
+  <string name="title_about">About this app</string>
+  <string name="title_visit_project">Visit project</string>
+
+  <string name="aboutLibraries_description_showIcon">true</string>
+  <string name="aboutLibraries_description_showVersion">true</string>
+    <string name="aboutLibraries_description_text">
+        <![CDATA[This is unofficial android app for Gitter chats.<br />Created by <b>Andriy Matkivskiy</b>]]>
+    </string>
+//TODO: remove this url
+  <string name="url_project">https://github.com/amatkivskiy/nuget-xamarin-app</string>
+
+</resources>

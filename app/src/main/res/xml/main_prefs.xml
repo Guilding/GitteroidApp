@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.afollestad.materialdialogs.prefs.MaterialListPreference
+        android:defaultValue="@integer/default_drawer_rooms_number"
+        android:entries="@array/drawer_room_number_values"
+        android:entryValues="@array/drawer_room_number_values"
+        android:key="@string/key_drawer_rooms_number"
+        android:persistent="true"
+        android:summary="Number of rooms that are visible in sliding menu"
+        android:title="Number of rooms in menu"/>
+
+    <PreferenceCategory android:title="About">
+        <Preference
+            android:key="@string/key_changelog"
+            android:title="@string/title_changelog"/>
+
+        <Preference
+            android:key="@string/key_visit_project"
+            android:title="@string/title_visit_project"/>
+
+        <Preference
+            android:key="@string/key_about"
+            android:title="@string/title_about"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
